@@ -1,5 +1,6 @@
 package com.dorra.gt;
 
+import com.dorra.algorithm.gt.queue.ArrayQueue;
 import com.dorra.algorithm.gt.stack.ArrayStack;
 import org.junit.Test;
 
@@ -9,6 +10,7 @@ import org.junit.Test;
  * @description
  */
 public class GeekTest {
+
     @Test
     public void testArrayStack() {
         ArrayStack stack = new ArrayStack(3);
@@ -18,5 +20,16 @@ public class GeekTest {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+    }
+
+    @Test
+    public void testArrayQueue() {
+        ArrayQueue arrayQueue = new ArrayQueue(3);
+        arrayQueue.enqueue("1");
+        arrayQueue.enqueue("2");
+        arrayQueue.enqueue("3");
+        System.out.println(arrayQueue.dequeue());
+        System.out.println(arrayQueue.dequeue());
+        System.out.println(arrayQueue.dequeue());
     }
 }
