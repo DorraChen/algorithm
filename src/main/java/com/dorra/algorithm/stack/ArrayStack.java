@@ -1,4 +1,4 @@
-package com.dorra.algorithm.gt.stack;
+package com.dorra.algorithm.stack;
 
 /**
  * @author dorra

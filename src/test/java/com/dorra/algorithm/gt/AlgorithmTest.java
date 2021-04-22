@@ -1,15 +1,18 @@
-package com.dorra.gt;
+package com.dorra.algorithm.gt;
 
-import com.dorra.algorithm.gt.queue.ArrayQueue;
-import com.dorra.algorithm.gt.stack.ArrayStack;
+import com.dorra.algorithm.queue.ArrayQueue;
+import com.dorra.algorithm.stack.ArrayStack;
+import com.dorra.algorithm.trietree.Trie;
 import org.junit.Test;
+
+import java.util.Scanner;
 
 /**
  * @author dorra
  * @date 2021/2/1 16:39
  * @description
  */
-public class GeekTest {
+public class AlgorithmTest {
 
     @Test
     public void testArrayStack() {
@@ -31,5 +34,15 @@ public class GeekTest {
         System.out.println(arrayQueue.dequeue());
         System.out.println(arrayQueue.dequeue());
         System.out.println(arrayQueue.dequeue());
+    }
+
+    @Test
+    public void testTrieTree() {
+        char[] chars = {'h', 'e', 'l','l','o'};
+        char[] chars1 = {'h', 'e'};
+        Trie trie = new Trie();
+        trie.insert(chars);
+        boolean flag = trie.find(chars);
+        System.out.println(flag);
     }
 }

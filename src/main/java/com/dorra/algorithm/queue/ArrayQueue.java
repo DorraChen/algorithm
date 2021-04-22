@@ -1,4 +1,4 @@
-package com.dorra.algorithm.gt.queue;
+package com.dorra.algorithm.queue;
 
 /**
  * @author dorra
