@@ -38,11 +38,13 @@ public class AlgorithmTest {
 
     @Test
     public void testTrieTree() {
-        char[] chars = {'h', 'e', 'l','l','o'};
-        char[] chars1 = {'h', 'e'};
+        char[] text = {'h', 'e', 'l','l','o'};
+        char[] pattern = {'h', 'e'};
+        char[] pattern1 = {'h', 'a'};
         Trie trie = new Trie();
-        trie.insert(chars);
-        boolean flag = trie.find(chars);
-        System.out.println(flag);
+        trie.insert(text);
+        System.out.println(trie.find(text));
+        System.out.println(trie.startWith(pattern));
+        System.out.println(trie.find(pattern1));
     }
 }

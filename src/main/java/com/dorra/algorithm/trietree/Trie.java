@@ -18,6 +18,9 @@ public class Trie {
      * @param text
      */
     public void insert(char[] text) {
+        if (text == null || text.length < 1) {
+            return;
+        }
         TrieNode p = root;
         for (int i = 0; i < text.length; ++i) {
             int index = text[i] - 'a';
@@ -27,7 +30,7 @@ public class Trie {
             }
             p = p.children[index];
         }
-        p.isEndingChar = true;
+        p.isEnd = true;
     }
 
     /**
@@ -46,8 +49,8 @@ public class Trie {
             }
             p = p.children[index];
         }
-        if (p.isEndingChar == false) {
-            // 不能完全匹配，只是前缀
+        if (p.isEnd == false) {
+            // 不能完全匹配,只是前缀
             return false;
         } else {
             // 找到pattern
@@ -55,10 +58,38 @@ public class Trie {
         }
     }
 
+    /**
+     * 前缀匹配
+     *
+     * @param prefix
+     * @return
+     */
+    public boolean startWith(char[] prefix) {
+        TrieNode p = root;
+        for (int i = 0; i < prefix.length; ++i) {
+            int index = prefix[i] - 'a';
+            if (p.children[index] == null) {
+                // 不存在pattern
+                return false;
+            }
+            p = p.children[index];
+        }
+        return true;
+    }
+
     public class TrieNode {
+        /**
+         * 节点值
+         */
         public char data;
+        /**
+         * 字母映射表
+         */
         public TrieNode[] children = new TrieNode[26];
-        public boolean isEndingChar = false;
+        /**
+         * 该结点是否是一个串的结束
+         */
+        public boolean isEnd = false;
 
         public TrieNode(char data) {
             this.data = data;
