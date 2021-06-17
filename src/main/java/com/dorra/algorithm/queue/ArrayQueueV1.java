@@ -4,8 +4,9 @@ package com.dorra.algorithm.queue;
  * @author dorra
  * @date 2021/03/24 23:02
  * @description 用数组实现的队列
+ * 如果已经满了则无法往队列里面添加元素
  */
-public class ArrayQueue {
+public class ArrayQueueV1 {
     /**
      * 数组：items，数组大小：n
      */
@@ -22,7 +23,7 @@ public class ArrayQueue {
      *
      * @param capacity
      */
-    public ArrayQueue(int capacity) {
+    public ArrayQueueV1(int capacity) {
         items = new String[capacity];
         n = capacity;
     }

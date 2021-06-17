@@ -1,11 +1,10 @@
 package com.dorra.algorithm.gt;
 
-import com.dorra.algorithm.queue.ArrayQueue;
+import com.dorra.algorithm.queue.ArrayQueueV1;
+import com.dorra.algorithm.queue.ArrayQueueV2;
 import com.dorra.algorithm.stack.ArrayStack;
 import com.dorra.algorithm.trietree.Trie;
 import org.junit.Test;
-
-import java.util.Scanner;
 
 /**
  * @author dorra
@@ -26,8 +25,19 @@ public class AlgorithmTest {
     }
 
     @Test
-    public void testArrayQueue() {
-        ArrayQueue arrayQueue = new ArrayQueue(3);
+    public void testArrayQueueV1() {
+        ArrayQueueV1 arrayQueue = new ArrayQueueV1(2);
+        arrayQueue.enqueue("1");
+        arrayQueue.enqueue("2");
+        arrayQueue.enqueue("3");
+        System.out.println(arrayQueue.dequeue());
+        System.out.println(arrayQueue.dequeue());
+        System.out.println(arrayQueue.dequeue());
+    }
+
+    @Test
+    public void testArrayQueueV2() {
+        ArrayQueueV2 arrayQueue = new ArrayQueueV2(2);
         arrayQueue.enqueue("1");
         arrayQueue.enqueue("2");
         arrayQueue.enqueue("3");
