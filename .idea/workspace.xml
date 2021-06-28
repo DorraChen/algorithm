@@ -25,11 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2ed974e-13df-4de7-8e8f-bafe9fb0cccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dorra/algorithm/leetcode/climbing_stairs/v1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dorra/algorithm/leetcode/climbing_stairs/v2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dorra/algorithm/recursion/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="a2ed974e-13df-4de7-8e8f-bafe9fb0cccb" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +194,7 @@
       <workItem from="1621426171473" duration="2409000" />
       <workItem from="1621650096101" duration="1273000" />
       <workItem from="1623912162831" duration="996000" />
-      <workItem from="1624865714413" duration="8316000" />
+      <workItem from="1624865714413" duration="8602000" />
     </task>
     <task id="LOCAL-00001" summary="Algorithm">
       <created>1619085714710</created>
@@ -289,22 +285,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1619161771921" />
-    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1624884501552">
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom" timestamp="1624885326127">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624884501552" />
-    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1624884501552">
+    <state width="1493" height="126" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624885326127" />
+    <state width="1493" height="126" key="GridCell.Tab.0.center" timestamp="1624885326126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624884501552" />
-    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1624884501552">
+    <state width="1493" height="126" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624885326126" />
+    <state width="1493" height="126" key="GridCell.Tab.0.left" timestamp="1624885326126">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624884501552" />
-    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1624884501552">
+    <state width="1493" height="126" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624885326126" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right" timestamp="1624885326127">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624884501552" />
+    <state width="1493" height="126" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1050@0.0.1536.834" timestamp="1624885326127" />
     <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1624883878029">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
