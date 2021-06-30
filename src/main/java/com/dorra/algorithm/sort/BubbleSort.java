@@ -5,11 +5,12 @@ import java.util.Arrays;
 /**
  * @author Dorra
  * @date 2021/5/29 17:02
- * @description
+ * @description 冒泡排序
  */
-public class Sort {
+public class BubbleSort {
     public static void main(String[] args) {
         int[] bubbleSortArray = {3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48};
+//        int[] bubbleSortArray = {3, 5, 4, 1, 2, 6};
         System.out.println("------------冒泡排序------------");
         bubbleSort(bubbleSortArray);
     }
@@ -38,6 +39,8 @@ public class Sort {
                     arr[j + 1] = tmp;
 
                     flag = false;
+                    System.out.println("                        " + Arrays.toString(arr));
+
                 }
             }
             System.out.println("第 " + i + " 次排序: " + Arrays.toString(arr));
