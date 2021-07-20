@@ -3,7 +3,7 @@ package com.dorra.algorithm.sort;
 import java.util.Arrays;
 
 /**
- * @author clz
+ * @author dorra
  * @date 2021/5/30 15:12
  * @description 插入排序
  */

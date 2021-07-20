@@ -1,7 +1,7 @@
 package com.dorra.algorithm.trietree;
 
 /**
- * @author Dorra
+ * @author dorra
  * @date 2021/4/22 15:43
  * @description
  */
