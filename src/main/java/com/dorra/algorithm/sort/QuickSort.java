@@ -13,7 +13,9 @@ public class QuickSort {
         int[] quickSortArray = {3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48};
 //        int[] quickSortArray = {3, 5, 4, 1, 2, 6};
         System.out.println("------------快速排序------------");
-
+        System.out.println("快速排序初始: " + Arrays.toString(quickSortArray));
+        int[] sortResult = sort(quickSortArray);
+        System.out.println("快速排序结果: " + Arrays.toString(sortResult));
     }
 
     private static int[] sort(int[] sourceArray) {
@@ -39,6 +41,7 @@ public class QuickSort {
         for (int i = index; i <= right; i++) {
             if (arr[i] < arr[pivot]) {
                 swap(arr, i, index);
+                System.out.println("排序后:      " + Arrays.toString(arr));
                 index++;
             }
         }
