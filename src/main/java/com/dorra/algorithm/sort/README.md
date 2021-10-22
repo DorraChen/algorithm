@@ -103,6 +103,8 @@
 
 - 思路: 
 
+4.假设有 10 万个手机号码，希望将这 10 万个手机号码从小到大排序
+
 ## 参考文章:
 - https://en.wikipedia.org/wiki/Sorting_algorithm
 - https://zh.wikipedia.org/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95
