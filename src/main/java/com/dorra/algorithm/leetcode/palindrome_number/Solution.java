@@ -31,12 +31,12 @@ public class Solution {
      *
      * Input: x = -101
      * Output: false
-     *  
+     *
      *
      * Constraints:
      *
-     * -231 <= x <= 231 - 1
-     *  
+     * -231 <= x <= 231- 1
+     *
      *
      * Follow up: Could you solve it without converting the integer to a string?
      *
